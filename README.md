@@ -1,4 +1,4 @@
-# Shuffle and Sort
+# OTP Verification
 
 This is a OTP Verification UI and static functionality done using HTML, CSS and JAVASCRIPT
 

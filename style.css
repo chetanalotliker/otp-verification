@@ -21,27 +21,20 @@ body {
 }
 .container {
   background: #fff;
-  padding: 30px 65px;
-  border-radius: 12px;
-  row-gap: 20px;
+  padding: 67px 67px;
+  border-radius: 16px;
+  row-gap: 24px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  width: 25%;
-}
-.container header {
-  height: 65px;
-  width: 65px;
-  background: #8A2BE2;
-  color: #fff;
-  font-size: 2.5rem;
-  border-radius: 50%;
+  width: 29%;
 }
 .icon-design{
   margin-left: 10px;
 }
-.container h4 {
+.design-text {
   font-size: 1.25rem;
   color: #333;
   font-weight: 500;
+  text-align: center;
 }
 form .input-field {
   flex-direction: row;
@@ -86,4 +79,48 @@ form button:hover {
 .home-class{
   font-size:24px;
   color:#8A2BE2;
+  margin-left: 40%;
+}
+.design-header{
+  margin-left: 30%;
+  margin-bottom: 15%;
+  height: 65px;
+  width: 65px;
+  background: #8A2BE2;
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 254px) {
+  .container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 375px) and (min-width: 255px) {
+  .container {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 85%;
+    row-gap: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 374px){
+  .container {
+    row-gap: 0;
+    width: 90%;
+    padding-top: 26%;
+  }
+}
+
+@media only screen and (max-width: 1030px) and (min-width: 577px){
+  .container {
+    row-gap: 0;
+    width: 72%;
+    padding-top: 13%;
+  }
 }

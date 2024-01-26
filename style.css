@@ -83,3 +83,7 @@ form button.active {
 form button:hover {
   background: #703ba1;
 }
+.home-class{
+  font-size:24px;
+  color:#8A2BE2;
+}

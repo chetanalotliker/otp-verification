@@ -9,20 +9,20 @@
         <title>OTP Verification</title>
     </head>
     <body>
-        <div class="container">
+        <div class="container" id="main_container">
             <header>
                 <i class="fa fa-key icon-design"></i>
             </header>
             <h4>Enter OTP Code</h4>
             <form action="#">
                 <div class="input-field" id="inputs">
-                    <input class="input" type="text" inputmode="numeric" maxlength="1" required/>
-                    <input class="input" type="text" inputmode="numeric" maxlength="1" required/>
-                    <input class="input" type="text" inputmode="numeric" maxlength="1" required/>
-                    <input class="input" type="text" inputmode="numeric" maxlength="1" required/>
+                    <input class="input" type="text" id="input1" inputmode="numeric" maxlength="1" required/>
+                    <input class="input" type="text" id="input2" inputmode="numeric" maxlength="1" required/>
+                    <input class="input" type="text" id="input3" inputmode="numeric" maxlength="1" required/>
+                    <input class="input" type="text" id="input4" inputmode="numeric" maxlength="1" required/>
                 </div>
                 <br>
-                <button type="submit" class="active">Verify OTP</button>
+                <button type="submit" class="active" onClick="verifyOtp()" >Verify OTP</button>
             </form>
         </div>
     </body>
